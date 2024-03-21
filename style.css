@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .centered-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .centered-image img {
+    width: 200px;
+    height: auto;
+  }
+  section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  #contact-information {
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 5px;
+  }
+  #about-me {
+    margin-top: 20px;
+  }
+  
+  #about-me h2 {
+    margin-bottom: 10px;
+  }
+  
+  #about-me p {
+    line-height: 1.5;
+  }
+  #resume-cv {
+    margin-top: 20px;
+  }
+  
+  #resume-cv h2 {
+    margin-bottom: 10px;
+  }
+  
+  #resume-cv h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #resume-cv p {
+    line-height: 1.5;
+  }
+  #portfolio {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  #certificates {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .certificate {
+    margin-bottom: 20px;
+  }
+  
+  .certificate h3 {
+    margin-top: 0;
+  }
+  
+.certificate img {
+  max-width: 200px; /* Set the maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+}
